@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  padding: 0.5em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ErrorPage {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto 1em;
+  height: 200px;
+  position: relative;
+  border-right: 0.2em;
+  transform: preserve-3d;
+}
+
+h3#cerr {
+  margin-top: 40px;
+  font-size: 29px;
+}
+
+button#rbtn {
+  margin-top: 20px;
+  border: black solid 2px;
+  border-radius: 5px;
+  width: 200px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+button#rbtn:hover {
+  transition: ease-in-out 0.2s;
+  background: rgb(200, 249, 255);
+}
